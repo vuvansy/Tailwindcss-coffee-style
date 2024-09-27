@@ -1,0 +1,19 @@
+{
+    "name": "tailwindcss-coffee-style",
+    "version": "1.0.0",
+    "description": "vuvansydev.com",
+    "main": "index.js",
+    "scripts": {
+        "dev": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+        "start": "live-server public"
+    },
+    "keywords": [],
+    "author": "vuvansydev.com",
+    "license": "ISC",
+    "devDependencies": {
+        "tailwindcss": "^3.4.13"
+    },
+    "dependencies": {
+        "live-server": "^1.2.2"
+    }
+}
